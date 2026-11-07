@@ -1,3 +1,63 @@
-.title {
-    
+/* Main container */
+.container {
+    width: 100%;
+    max-width: 573px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Individual cards */
+.card {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    padding: 27px;
+    box-sizing: border-box;
+}
+
+/* Card headings */
+.card h2 {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 1px solid #555;
+    padding-bottom: 8px;
+    margin: 0 0 16px;
+}
+
+/* Paragraphs */
+.card p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 16px;
+}
+
+/* Links */
+.card a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* List */
+.card ul {
+    font-size: 20px;
+    line-height: 1.6;
+    padding-left: 32px;
+    margin: 16px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .card h2 {
+        font-size: 23px;
+    }
+
+    .card p,
+    .card ul {
+        font-size: 17px;
+    }
 }
