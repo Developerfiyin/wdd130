@@ -50,6 +50,14 @@
     margin: 16px 0;
 }
 
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
 /* Responsive design */
 @media (max-width: 600px) {
     .container {
@@ -65,3 +73,5 @@
         font-size: 17px;
     }
 }
+
+
