@@ -1,5 +1,6 @@
  main {
      width: 840px;
+
  }
 
  main img {
@@ -25,6 +26,8 @@
  /* Paragraph */
  p {
      padding: 0;
+     color: whitesmoke;
+
  }
 
  footer {
