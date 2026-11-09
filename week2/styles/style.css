@@ -1,0 +1,37 @@
+ main{
+width: 840px;
+ }
+ main img {
+    width: 200px;
+    height: auto;
+ }
+aside {
+            width: 300px;
+            margin: 20px auto;
+            border: 2px solid steelblue;
+            padding: 15px;
+            background-color: #e6f2ff;
+            color: #222222;
+        }
+
+        aside img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+
+/* Paragraph */
+p {
+    padding: 0;
+}
+
+
+        footer {
+            background-color: steelblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            border-top: 1px solid #000;
+        }
