@@ -17,23 +17,16 @@ main {
     margin: 0 auto;
 }
 
-/* Main heading */
 h1 {
     color: steelblue;
-}
-
-/* Main image */
-main img {
-    width: 150px;
-    height: auto;
-    border: 2px solid steelblue;
-    padding: 5px;
-    box-shadow: 0 0 10px gray;
 }
 
 main img {
     width: 200px;
     height: auto;
+    border: 2px solid steelblue;
+    padding: 5px;
+    box-shadow: 0 0 10px gray;
 }
 
 aside {
@@ -46,7 +39,7 @@ aside {
 }
 
 aside img {
-    width: 100%;
+    width: 200px;
     height: auto;
     border-radius: 8px;
 }
