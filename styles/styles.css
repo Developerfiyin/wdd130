@@ -46,6 +46,9 @@ aside {
     padding: 15px;
     background-color: #e6f2ff;
     color: #222222;
+    width: 20em;
+    text-align: center;
+
 }
 
 aside img {
@@ -77,9 +80,4 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
-}
-
-aside {
-    width: 20em;
-    text-align: center;
 }
