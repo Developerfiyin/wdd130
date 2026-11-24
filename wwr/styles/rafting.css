@@ -43,14 +43,6 @@ article {
     padding: 8px;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
@@ -95,33 +87,54 @@ header nav a:hover {
 
 /* .hero {
     position: relative;
-    /* lets h1 and article sit on top of the image */
+    /* lets h1 and article sit on top of the image 
 
-*/ .hero article {
+  .hero article {
     position: absolute;
-    /* floats over the image */
+    /* floats over the image 
     bottom: 20px;
 }
 
 h1 {
     position: absolute;
-    /* floats over the image */
+    /* floats over the image 
     top: 10px;
 }
 
 .hero {
     background-size: cover;
-    /* not "100% 100%", which stretches */
+    /* not "100% 100%", which stretches 
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: 00px;
-    /* pick any height you like */
+    /* pick any height you like 
     object-fit: cover;
-    /* crops the extra instead of stretching */
+    /* crops the extra instead of stretching 
     object-position: center;
+} */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+    /* white text – make sure there is enough contrast with the background-color */
 }
 
 .hero article {
