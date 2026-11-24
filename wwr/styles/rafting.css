@@ -52,13 +52,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: burlywood;
 
 }
 
 header img {
-    width: 9;
-    height: 9;
+    width: 4;
+    height: 4;
     border-radius: 100px;
+    padding: 6px;
 
 }
 
