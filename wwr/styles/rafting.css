@@ -137,20 +137,15 @@ h1 {
     /* white text – make sure there is enough contrast with the background-color */
 }
 
-.hero article {
-    position: absolute;
-    /* floats over the image */
-    bottom: 20px;
+/* .hero article img {
+    float: right;
+    width: 125px;
 }
 
-h1 {
-
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+.hero article {
+    position: absolute;
+    /* floats over the image 
+    bottom: 20px;
 }
 
 .hero article {
@@ -168,7 +163,8 @@ h1 {
     width: 125px;
     margin: 0 0 8px 12px;
     border: 3px solid var(--primary-color);
-}
+} 
+
 
 /* ---------- Sections and footer ---------- */
 section {
