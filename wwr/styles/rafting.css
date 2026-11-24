@@ -86,13 +86,36 @@ header nav a:hover {
     color: var(--secondary-color);
 }
 
-.hero {}
+.hero {
+    position: relative;
+    /* lets h1 and article sit on top of the image */
+}
 
 .hero img {
+    display: block;
+    width: 100%;
+    /* fills the full width of the div */
+    height: auto;
+    /* keeps the aspect ratio */
+}
+
+h1 {
+    position: absolute;
+    /* floats over the image */
+    top: 20px;
+}
+
+.hero article {
+    position: absolute;
+    /* floats over the image */
+    bottom: 20px;
+}
+
+/* .hero img {
 
     width: 100%;
     height: auto;
-}
+} */
 
 h1 {
 
