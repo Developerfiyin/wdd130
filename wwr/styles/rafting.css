@@ -86,12 +86,12 @@ header nav a:hover {
     color: var(--secondary-color);
 }
 
-.hero {
+/* .hero {
     position: relative;
     /* lets h1 and article sit on top of the image */
 }
 
-.hero article {
+*/ .hero article {
     position: absolute;
     /* floats over the image */
     bottom: 20px;
