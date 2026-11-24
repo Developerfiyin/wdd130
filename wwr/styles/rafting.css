@@ -91,6 +91,19 @@ header nav a:hover {
     /* lets h1 and article sit on top of the image */
 }
 
+/* .hero img {
+    display: block;
+    width: 100%;
+    /* fills the full width of the div */
+height: auto;
+/* keeps the aspect ratio */
+}
+
+*/ .hero {
+    position: relative;
+    /* lets h1 and article sit on top of the image */
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -103,6 +116,27 @@ h1 {
     position: absolute;
     /* floats over the image */
     top: 20px;
+}
+
+.hero article {
+    position: absolute;
+    /* floats over the image */
+    bottom: 20px;
+}
+
+.hero {
+    /* background-image: url("../images"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* a div with no content needs a height */
+}
+
+h1 {
+    position: absolute;
+    /* floats over the image */
+    top: 10px;
 }
 
 .hero article {
