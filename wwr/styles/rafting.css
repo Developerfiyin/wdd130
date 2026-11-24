@@ -91,46 +91,10 @@ header nav a:hover {
     /* lets h1 and article sit on top of the image */
 }
 
-/* .hero img {
-    display: block;
-    width: 100%;
-    /* fills the full width of the div */
-height: auto;
-/* keeps the aspect ratio */
-}
-
-*/ .hero {
-    position: relative;
-    /* lets h1 and article sit on top of the image */
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    /* fills the full width of the div */
-    height: auto;
-    /* keeps the aspect ratio */
-}
-
-h1 {
-    position: absolute;
-    /* floats over the image */
-    top: 20px;
-}
-
 .hero article {
     position: absolute;
     /* floats over the image */
     bottom: 20px;
-}
-
-.hero {
-    /* background-image: url("../images"); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    /* a div with no content needs a height */
 }
 
 h1 {
@@ -145,15 +109,8 @@ h1 {
     bottom: 20px;
 }
 
-/* .hero img {
-
-    width: 100%;
-    height: auto;
-} */
-
 h1 {
 
-    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
