@@ -230,7 +230,6 @@ footer {
     background-color: #023e8a;
     color: white;
     text-align: center;
-    padding: 20px;
 }
 
 footer {
@@ -239,5 +238,5 @@ footer {
 }
 
 .socialmedia img {
-    margin: 0 6px;
+    margin: 0 2px;
 }
