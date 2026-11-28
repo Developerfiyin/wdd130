@@ -52,30 +52,24 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    background-color: burlywood;
+    background-color: #023e8a;
+    padding: 15px 40px;
+
 }
 
-/* header {
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
-    background-color: burlywood;
-
-} */
-
 header img {
-    width: 40px;
-    height: 4px;
-    border-radius: 100px;
-    padding: 6px;
+    /* width: 40px; */
+    height: auto;
+    border-radius: 10px;
+    width: 120px;
 
 }
 
 nav {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    gap: 6px;
+    gap: 30px;
     cursor: pointer;
 }
 
