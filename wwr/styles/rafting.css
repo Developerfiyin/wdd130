@@ -44,10 +44,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 header {
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -230,11 +226,11 @@ footer {
     background-color: #023e8a;
     color: white;
     text-align: center;
+    border-top: 4px solid var(--primary-color);
 }
 
-footer {
-    text-align: center;
-    border-top: 4px solid var(--primary-color);
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
