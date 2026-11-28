@@ -148,7 +148,7 @@ h1 {
 .hero article img {
     float: right;
     width: 180px;
-    margin-left: 15px;
+    margin: 0 0 8px 12px;
 }
 
 /* .hero article {
